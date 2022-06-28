@@ -21,13 +21,13 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  prject_name:
+  project_name:
     type: string
     description: Your Project name
-    default: Dash
+    default: Project Name
     prompt: What is your project name?
-  prject_route:
+  project_route:
     type: string
     description: Your Project route
-    default: Dash
+    default: project_name
     prompt: What is your project route?
